@@ -3,7 +3,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class Candle : MonoBehaviour
 {
-    public string candleColor; // Set in inspector: "Red", "Green", etc.
+    public string candleColor;
     public GameObject flame;
     public GameObject smoke;
     public Light pointLight;
