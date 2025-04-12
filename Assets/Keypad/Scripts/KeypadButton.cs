@@ -47,6 +47,8 @@ namespace NavKeypad
             {
                 keypad.AddInput(value);
                 StartCoroutine(MoveSmooth());
+
+                
             }
         }
 

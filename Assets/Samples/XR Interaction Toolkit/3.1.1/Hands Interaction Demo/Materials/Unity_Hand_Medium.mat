@@ -21,76 +21,174 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Unity_Hand_Medium
-  m_Shader: {fileID: -6465566751694194690, guid: b696962bc2ea6924596c291ba20d1286, type: 3}
-  m_Parent: {fileID: 2100000, guid: 25a2dab1f8d250944991ceefc0b073c3, type: 2}
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _BUILTIN_SURFACE_TYPE_TRANSPARENT
-  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 7173c639dbda2134387192375d29d027, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HandMasks1:
-        m_Texture: {fileID: 2800000, guid: a8978e65d952d8e4eb753cfd790491b6, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HandMasks2:
-        m_Texture: {fileID: 2800000, guid: f7291382680697249a32c1e5c450aa7e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HandMasks3:
-        m_Texture: {fileID: 2800000, guid: 539b9126f83004f45867a56015300e07, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BUILTIN_QueueControl: 1
+    - _AO_Strength: 1
+    - _AddPrecomputedVelocity: 0
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _BUILTIN_QueueControl: -1
+    - _BUILTIN_QueueOffset: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
     - _BloodVessels: 0
-    - _BloodVesselsFuzziness: 0
-    - _BloodVesselsRange: 0
-    - _ColoredFingers: 0
-    - _DstBlend: 10
-    - _HandLines: 0
-    - _Knuckles: 0
-    - _LargeSpots: 0
-    - _MidSpots: 0
-    - _NailsFuzziness: 1
-    - _NailsRange: 0
+    - _BloodVesselsFuzziness: 1.47
+    - _BloodVesselsRange: 0.62
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _ColoredFingers: 0.084
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EnvironmentReflections: 1
+    - _FingersFuzziness: 1
+    - _FingersRange: 0.415
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _HandLines: 0.2
+    - _Knuckles: 0.17
+    - _KnucklesFuzziness: 1
+    - _KnucklesRange: 1
+    - _LargeSpots: 0.1
+    - _LargeSpotsFuzziness: 0.671
+    - _LargeSpotsIntensity: 0
+    - _LargeSpotsRange: 0.342
+    - _Large_Spots_Intensity: 0
+    - _LinesFuzziness: 1
+    - _LinesRange: 0
+    - _Metallic: 0
+    - _MidSpots: 0.15
+    - _MidSpotsFuzziness: 1
+    - _MidSpotsRange: 0.949
+    - _NailsFuzziness: 0.378
+    - _NailsRange: 1
+    - _Normal_Strength: 1
+    - _OcclusionStrength: 1
     - _PalmFuzziness: 1
     - _PalmRange: 0.598
-    - _QueueControl: 1
-    - _SeparatePalmColor: 1
-    - _SmallSpots: 0
-    - _SrcBlend: 5
-    - _Surface: 1
-    - _ZWrite: 0
+    - _Parallax: 0.005
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SeparatePalmColor: 0
+    - _SmallSpots: 0.1
+    - _SmallSpotsFuzziness: 0
+    - _SmallSpotsRange: 0.371
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
     m_Colors:
-    - _BloodVesselsColor: {r: 0.9622641, g: 0.6490744, b: 0.678436, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 0.78039217}
-    - _Fingers_Color: {r: 0.9622641, g: 0.6490744, b: 0.678436, a: 0}
-    - _KnucklesColor: {r: 0.9622641, g: 0.6490744, b: 0.678436, a: 0}
-    - _LargeSpotsColor: {r: 0.509434, g: 0.37551728, b: 0.25231397, a: 1}
-    - _Lines_Color: {r: 0.9622641, g: 0.6490744, b: 0.678436, a: 0}
-    - _MidSpotsColor: {r: 1, g: 0.9157327, b: 0.9009434, a: 1}
-    - _NailsColorA: {r: 1, g: 0.8527721, b: 0.76886797, a: 1}
-    - _NailsColorB: {r: 1, g: 0.6366329, b: 0.42924526, a: 1}
-    - _NailsTipColor: {r: 0.51886785, g: 0.03671235, b: 0.03671235, a: 1}
-    - _PalmColor: {r: 1, g: 0.7411765, b: 0.5333334, a: 1}
-    - _SkinColor: {r: 1, g: 0.74285764, b: 0.53301877, a: 1}
-    - _Small_Spots_Color: {r: 1, g: 0.9198113, b: 0.9375851, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BloodVesselsColor: {r: 0.7490196, g: 0.9254902, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Fingers_Color: {r: 1, g: 0.12941177, b: 0.043137256, a: 0}
+    - _KnucklesColor: {r: 1, g: 0.12941177, b: 0.043137256, a: 0}
+    - _LargeSpotsColor: {r: 0.9150943, g: 0.7739172, b: 0.66042185, a: 1}
+    - _Lines_Color: {r: 0.8980392, g: 0.35686275, b: 0.26666668, a: 1}
+    - _MidSpotsColor: {r: 0.54901963, g: 0.08235294, b: 0, a: 1}
+    - _NailsColorA: {r: 0.8, g: 0.6, b: 0.46666667, a: 1}
+    - _NailsColorB: {r: 0.8, g: 0.6, b: 0.46666667, a: 1}
+    - _NailsTipColor: {r: 0.8, g: 0.6, b: 0.46666667, a: 1}
+    - _PalmColor: {r: 0.83137256, g: 0.6431373, b: 0.52156866, a: 1}
+    - _SkinColor: {r: 0.8, g: 0.6, b: 0.46666667, a: 1}
+    - _Small_Spots_Color: {r: 0.74509805, g: 0.10980392, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &9183041752085862926
