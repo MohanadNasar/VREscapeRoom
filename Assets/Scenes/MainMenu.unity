@@ -1708,7 +1708,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a89d91b09ecb0164ab9d892915bfa299, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 05d10c626f108de449de0b79c81b68a1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2057,8 +2057,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <b>Interactable</b> components define how the user can interact with objects
-    in a scene.
+  m_text: "Escape complete! You\u2019ve cracked the code and unlocked your freedom."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -2107,7 +2106,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -4395,7 +4394,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &340159727
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4484,7 +4483,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -5045,7 +5044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7e45b5b7749d93e4baa70a7908635dcc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1a83ade781068e549a987fd752689786, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8424,7 +8423,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3a7df7750779c1d48a8389b8a7e2b3dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b24b22c27b32c4346a09fde93ff7ee90, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15222,7 +15221,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1102363077
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15311,7 +15310,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -18487,8 +18486,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'This includes head-mounted device tracking, controller presence, interactors,
-    and locomotion. '
+  m_text: "Each room holds a unique test\u2026 but only <b>one way out</b>."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -18537,7 +18535,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -22221,8 +22219,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: An <b>interactor</b> component controls how a GameObject interacts with
-    interactable components in the scene.
+  m_text: "Wrong code? You\u2019re close\u2026 Every mistake brings you closer."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -22271,7 +22268,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -23440,8 +23437,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: There are two core components that are critical to building XR interactions;
-    <b>interactors</b> and <b>interactables.</b>
+  m_text: "The truth is in the details \u2014 explore, touch, and uncover what\u2019s
+    hidden."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -23490,7 +23487,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -23822,7 +23819,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "That\u2019s it! \nWe can\u2019t wait to see what XR experiences you build! "
+  m_text: Time is not your friend. Escape before it runs out.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -23871,7 +23868,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -25715,7 +25712,7 @@ RectTransform:
   m_GameObject: {fileID: 1781689440}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.03, y: 2.03, z: 2.03}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 258993271}
@@ -25745,7 +25742,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aa1e07d3e3ba968489f3cba3bbe76b41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a003e76c13e6edf44b80cf81ad2a4c68, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -25797,7 +25794,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -15.1}
   m_SizeDelta: {x: 350, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1798802320
@@ -25820,7 +25817,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aa1e07d3e3ba968489f3cba3bbe76b41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0ac26f4a09dc99a4ab71a10bdf86d6c1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -26433,7 +26430,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0.00000251255, y: -40}
-  m_SizeDelta: {x: 347, y: 240}
+  m_SizeDelta: {x: 350, y: 240}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1854588857
 MonoBehaviour:
@@ -26455,7 +26452,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9625d04e38cf2c24abcc8a5be4834ce4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d7064885c80882c4ab67c7106c2fb42c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -26577,7 +26574,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bd657264cd2bd754bbed1cc8905fbdce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ca1f7bb49d5e7ee4f9a60c59f8f29e69, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -27761,7 +27758,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1954843050
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27850,7 +27847,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -28139,8 +28136,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The <b>Complete XR Origin Setup</b> contains everything needed for a fully
-    functional user interaction with XRI.
+  m_text: "Choose your challenge. <b>Easy, Medium, or Hard</b> \u2014 each room awaits.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -28189,7 +28185,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -30722,7 +30718,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Welcome to the VR Template! \nLet\u2019s learn about some of the features."
+  m_text: "Welcome to <b>No Way Out!</b>, \na mind-bending VR escape room experience.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -30758,7 +30754,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -30838,7 +30834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6984c48aed9a154294088f4265d8478, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30.65
+      value: 30.698
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6984c48aed9a154294088f4265d8478, type: 3}
       propertyPath: m_LocalRotation.w
