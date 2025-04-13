@@ -33,6 +33,7 @@ namespace NavKeypad
         [SerializeField] private AudioClip buttonClickedSfx;
         [SerializeField] private AudioClip accessDeniedSfx;
         [SerializeField] private AudioClip accessGrantedSfx;
+        [SerializeField] private AudioClip puzzleSolved;
         [Header("Component References")]
         [SerializeField] private Renderer panelMesh;
         [SerializeField] private TMP_Text keypadDisplayText;
@@ -93,10 +94,10 @@ namespace NavKeypad
         {
             displayingResult = true;
 
-            if (granted) AccessGranted();
+            if (granted) StartCoroutine(AccessGranted());
             else AccessDenied();
 
-            yield return new WaitForSeconds(displayResultTime);
+            yield return new WaitForSeconds(displayResultTime+ 2.2f);
             displayingResult = false;
             if (granted)
             {
@@ -123,13 +124,16 @@ namespace NavKeypad
             keypadDisplayText.text = currentInput;
         }
 
-        private void AccessGranted()
+        private IEnumerator AccessGranted()
         {
             accessWasGranted = true;
             keypadDisplayText.text = accessGrantedText;
             onAccessGranted?.Invoke();
             panelMesh.material.SetVector("_EmissionColor", screenGrantedColor * screenIntensity);
             audioSource.PlayOneShot(accessGrantedSfx);
+            yield return new WaitForSeconds(0.1f);
+            audioSource.PlayOneShot(puzzleSolved);
+            
         }
 
     }
